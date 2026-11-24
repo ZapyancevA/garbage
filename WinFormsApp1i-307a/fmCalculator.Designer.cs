@@ -82,6 +82,7 @@
             plus.TabIndex = 2;
             plus.Text = "+";
             plus.UseVisualStyleBackColor = true;
+            
             // 
             // three
             // 

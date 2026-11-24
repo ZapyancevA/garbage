@@ -22,12 +22,6 @@ namespace WinFormsApp1i_307a
                 return;
             }
             txtDisplay.Text += btn.Text;
-
-
-            //if (txtDisplay.Text.IndexOf(",") == 0)
-            //    return;
-
-            //txtDisplay.Text += btn.Text;
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -38,6 +32,13 @@ namespace WinFormsApp1i_307a
             currentOperation = "";
             isOperationPerformed = false;
         }
+
+        //public void button19_Click(object sender, EventArgs e)
+        //{
+        //    firstNumber = Convert.ToDouble(txtDisplay.Text);
+        //    currentOperation = "+";
+        //    isOperationPerformed = true;
+        //}
 
     }
 
